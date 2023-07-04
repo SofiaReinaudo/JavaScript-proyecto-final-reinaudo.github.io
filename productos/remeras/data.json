@@ -1,0 +1,6 @@
+[
+    { "id": 1, "nombre": "Remera Bianca", "precio": 5000, "img": "../../images/remeraBianca.jpg"},
+    { "id": 2, "nombre": "Remera What", "precio": 4050, "img": "../../images/remeraWhat.jpg"}, 
+    { "id": 3, "nombre": "Remera Fire", "precio": 5600, "img": "../../images/remeraFire.jpg"},
+    { "id": 4, "nombre": "Remera Disney", "precio": 6000, "img": "../../images/remeraDisney.jpg"}
+]

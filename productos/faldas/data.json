@@ -1,0 +1,6 @@
+[
+    { "id": 1, "nombre": "Falda Turia", "precio": 8000, "img": "../../images/faldaTuria.jpg"},
+    { "id": 2, "nombre": "Falda Mini", "precio": 9000, "img": "../../images/faldaMini.jpg"},
+    { "id": 3, "nombre": "Falda Nova", "precio": 7900, "img": "../../images/faldaNova.jpg"},     
+    { "id": 4, "nombre": "Falda Pixel", "precio": 12000, "img": "../../images/faldaPixel.jpg"}
+]

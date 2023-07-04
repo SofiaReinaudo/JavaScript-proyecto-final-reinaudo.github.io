@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- SEO -->
+    <title>Made In Heaven | Faldas</title>
+    <meta name="description" content="Descubre las faldas de la nueva olección de Made In Heaven! Encontrás las mejores tendencias de latinoamérica.">
+    <meta name="keywords" content="Made In Heaven, latinoamérica, ropa, indumentaria, mayoristas, ropa por mayor, venta de ropa, faldas, polleras, cortas, temporada, primavera, mujer, ropa de mujer, ropa femenina por mayor">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <!--Icono-->
+    <link rel="shortcut icon" href="../../images/iconoCorazon.png" type="image/x-icon">
+    <!-- Link librería Sweetalert -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css">
+    <!--link estilos CSS-->
+    <link rel="stylesheet" href="../../css/style.css">
+
+</head>
+
+<body id="body">
+    <header>
+        <!-- Sección navbar -->
+            <nav class="navbar navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                <h1><a class="navbar-brand" href="../../index.html">MADE IN HEAVEN | FALDAS</a></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MADE IN HEAVEN</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                        </form>
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                            <li><a class="dropdown-item" href="../remeras/remeras.html">Remeras</a></li>
+                            <li><a class="dropdown-item" href="../faldas/faldas.html">Faldas</a></li>
+                            <li><a class="dropdown-item" href="../vestidos/vestidos.html">Vestidos</a></li>
+                            
+                            <li>
+                            <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="../todos/productos.html">Ver todos</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../contacto.html">Contacto</a>
+                            </li>
+                    </ul>
+                    
+                    </div>
+                </div>
+                </div>
+            </nav>
+    </header>
+
+    <!-- Cambiar modo -->
+    <div  class="form-check form-switch">
+        <input id="btnCambiarOscuro" class="form-check-input" type="checkbox" role="switch" >
+    </div>
+    <div  class="form-check form-switch">
+        <input id="btnCambiarClaro" class="form-check-input" type="checkbox" role="switch" >
+    </div>
+    <!-- container de productos -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="contenedorProductos" class="row row-cols-1 row-cols-md-3 g-4">
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- Botón carrito -->
+    <button type="button" class="btn carrito" id="btn-carrito"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <i class="fa-solid fa-cart-shopping fa-xl"></i>
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Tu carrito</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modal-body"></div>
+                <div class="modal-footer">
+                    <h4 id="total" style="font-size: 20px; position: relative; right: 100px;"></h4>
+                    <button type="button" class="btn btn-outline-dark" id="vaciar-carrito">Vaciar carrito</button>
+                    <a class="btn btn-dark" href="../../contacto.html">Finalizar Compra</a>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content px-5 border-top border-dark bg-white">
+        <!-- Sección footer -->
+        <footer class="py-5">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+            <h5>Sección</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="../../index.html" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="../todos/productos.html" class="nav-link p-0 text-muted">Productos</a></li>
+                <li class="nav-item mb-2"><a href="../remeras/remeras.html" class="nav-link p-0 text-muted">Remeras</a></li>
+                <li class="nav-item mb-2"><a href="../faldas/faldas.html" class="nav-link p-0 text-muted">Faldas</a></li>
+                <li class="nav-item mb-2"><a href="../vestidos/vestidos.html" class="nav-link p-0 text-muted">Vestidos</a></li>
+                <li class="nav-item mb-2"><a href="../../contacto.html" class="nav-link p-0 text-muted">Contacto</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="https://www.whatsapp.com/?lang=es"><svg class="bi" width="24" height="24"><i class="fab fa-whatsapp"></i></a></li>
+            <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/sofi_reinaudo/?hl=es-la"><svg class="bi" width="24" height="24"><i class="fab fa-instagram"></i></a></li>
+            <li class="ms-3"><a class="link-dark" href="https://github.com/SofiaReinaudo"><svg class="bi" width="24" height="24"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <div class="text-center p-3">
+                © Proyecto Final - Coderhause - 2023  - Sofía Reinaudo
+            </div>
+        </div>    
+        </footer>
+    </div> 
+
+    <script src="./faldas.js"></script>
+    <script src="https://kit.fontawesome.com/7d243e3d33.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
