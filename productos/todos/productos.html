@@ -70,7 +70,6 @@
                 </div>
             </nav>
     </header>
-
     <!-- Cambiar modo -->
     <div  class="form-check form-switch">
         <input id="btnCambiarOscuro" class="form-check-input" type="checkbox" role="switch" >
@@ -78,7 +77,8 @@
     <div  class="form-check form-switch">
         <input id="btnCambiarClaro" class="form-check-input" type="checkbox" role="switch" >
     </div>
-    <!-- container de productos -->
+
+    <<!-- container de productos -->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -87,21 +87,26 @@
             </div>
         </div> 
     </div>
+
+    
+    
     <!-- Botón carrito -->
-    <button type="button" class="btn carrito2" id="btn-carrito"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <button type="button" class="btn carrito" id="btn-carrito"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
         <i class="fa-solid fa-cart-shopping fa-xl"></i>
     </button>
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Tu carrito</h1>
+                    <h3 class="modal-title fs-4" id="staticBackdropLabel">
+                        <i class="fa-solid fa-cart-shopping fa-sm"></i>
+                        Tu carrito</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body" id="modal-body"></div>
                 <div class="modal-footer">
-                    <h4 id="total" style="font-size: 20px; position: relative; right: 100px;"></h4>
+                    <div id="pagoTotal" style="font-size: 25px; position: relative; right:50px;"></div>
                     <button type="button" class="btn btn-outline-dark" id="vaciar-carrito">Vaciar carrito</button>
                     <a class="btn btn-dark" href="../../contacto.html">Finalizar Compra</a>   
                 </div>

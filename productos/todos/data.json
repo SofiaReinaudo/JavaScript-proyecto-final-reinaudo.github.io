@@ -1,14 +1,14 @@
 [
-    { "id": 1, "nombre": "Falda Turia", "precio": 8000, "img": "../../images/faldaTuria.jpg"},
-    { "id": 2, "nombre": "Remera Bianca", "precio": 5000, "img": "../../images/remeraBianca.jpg"},
-    { "id": 3, "nombre": "Vestido Doha", "precio": 11000, "img": "../../images/vestidoDoha.jpg"},   
-    { "id": 4, "nombre": "Falda Mini", "precio": 9000, "img": "../../images/faldaMini.jpg"},
-    { "id": 5, "nombre": "Remera What", "precio": 4050, "img": "../../images/remeraWhat.jpg"},
-    { "id": 6, "nombre": "Vestido Jenna", "precio": 7700, "img": "../../images/vestidoJenna.jpg"},
-    { "id": 7, "nombre": "Falda Nova", "precio": 7900, "img": "../../images/faldaNova.jpg"},  
-    { "id": 8, "nombre": "Remera Fire", "precio": 5600, "img": "../../images/remeraFire.jpg"},    
-    { "id": 9, "nombre": "Vestido Silver", "precio": 14500, "img": "../../images/vestidoSilver.jpg"},   
-    { "id": 10, "nombre": "Falda Pixel", "precio": 12000, "img": "../../images/faldaPixel.jpg"}, 
-    { "id": 11, "nombre": "Remera Disney", "precio": 6000, "img": "../../images/remeraDisney.jpg"}, 
-    { "id": 12, "nombre": "Vestido Nina", "precio": 13000, "img": "../../images/vestidoNina.jpg"}   
+    { "id": 1, "nombre": "Falda Turia", "precio": 8000, "img": "../../images/faldaTuria.jpg", "cantidad":1},
+    { "id": 2, "nombre": "Remera Bianca", "precio": 5000, "img": "../../images/remeraBianca.jpg", "cantidad":1},
+    { "id": 3, "nombre": "Vestido Doha", "precio": 11000, "img": "../../images/vestidoDoha.jpg", "cantidad":1},   
+    { "id": 4, "nombre": "Falda Mini", "precio": 9000, "img": "../../images/faldaMini.jpg", "cantidad":1},
+    { "id": 5, "nombre": "Remera What", "precio": 4050, "img": "../../images/remeraWhat.jpg", "cantidad":1},
+    { "id": 6, "nombre": "Vestido Jenna", "precio": 7700, "img": "../../images/vestidoJenna.jpg", "cantidad":1},
+    { "id": 7, "nombre": "Falda Nova", "precio": 7900, "img": "../../images/faldaNova.jpg", "cantidad":1},  
+    { "id": 8, "nombre": "Remera Fire", "precio": 5600, "img": "../../images/remeraFire.jpg", "cantidad":1},    
+    { "id": 9, "nombre": "Vestido Silver", "precio": 14500, "img": "../../images/vestidoSilver.jpg", "cantidad":1},   
+    { "id": 10, "nombre": "Falda Pixel", "precio": 12000, "img": "../../images/faldaPixel.jpg", "cantidad":1}, 
+    { "id": 11, "nombre": "Remera Disney", "precio": 6000, "img": "../../images/remeraDisney.jpg", "cantidad":1}, 
+    { "id": 12, "nombre": "Vestido Nina", "precio": 13000, "img": "../../images/vestidoNina.jpg", "cantidad":1}   
 ]

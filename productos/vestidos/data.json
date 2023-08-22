@@ -1,6 +1,6 @@
 [
-    { "id": 1, "nombre": "Vestido Doha", "precio": 11000, "img": "../../images/vestidoDoha.jpg"},   
-    { "id": 2, "nombre": "Vestido Jenna", "precio": 7700, "img": "../../images/vestidoJenna.jpg"},    
-    { "id": 3, "nombre": "Vestido Silver", "precio": 14500, "img": "../../images/vestidoSilver.jpg"},   
-    { "id": 4, "nombre": "Vestido Nina", "precio": 13000, "img": "../../images/vestidoNina.jpg"}   
+    { "id": 1, "nombre": "Vestido Doha", "precio": 11000, "img": "../../images/vestidoDoha.jpg", "cantidad":1},   
+    { "id": 2, "nombre": "Vestido Jenna", "precio": 7700, "img": "../../images/vestidoJenna.jpg", "cantidad":1},    
+    { "id": 3, "nombre": "Vestido Silver", "precio": 14500, "img": "../../images/vestidoSilver.jpg", "cantidad":1},   
+    { "id": 4, "nombre": "Vestido Nina", "precio": 13000, "img": "../../images/vestidoNina.jpg", "cantidad":1}   
 ]

@@ -109,13 +109,13 @@ body{
 }
 
 .carrito{
-    position: relative;
-    bottom: 1715px;
-    left: 160px;
+    position: absolute;
+    top: 95px;
+    left: 170px;
 }
 .carrito2{
-    position: relative;
-    bottom: 3278px;
+    position: absolute;
+    bottom: 100px;
     left: 160px;
 }
 
